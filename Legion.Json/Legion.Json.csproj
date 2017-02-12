@@ -35,6 +35,10 @@
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Skogsaas.Legion, Version=1.0.6235.29435, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Skogsaas.Legion.1.0.6235.29435\lib\net452\Skogsaas.Legion.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,12 +54,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Legion\Legion.csproj">
-      <Project>{ccb29155-ce7f-4774-8a57-87308e3a0962}</Project>
-      <Name>Legion</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
